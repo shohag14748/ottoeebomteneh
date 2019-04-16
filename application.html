@@ -6,15 +6,15 @@
 <!--[if lt IE 7]>      
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
    <![endif]-->
-   <!--[if IE 7]>         
+<!--[if IE 7]>         
    <html class="no-js lt-ie9 lt-ie8" lang="">
       <![endif]-->
-      <!--[if IE 8]>         
+<!--[if IE 8]>         
       <html class="no-js lt-ie9" lang="">
          <![endif]-->
-         <!--[if gt IE 8]><!--> 
-         <html class="no-js" lang="en">
-            <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
@@ -158,15 +158,8 @@
         <div class="container">
             <div class="row intro-title">
                 <div class="col-sm-12 text-center">
-                    <h1 class="title">Our Culture</h1>
+                    <h1 class="title">Application for Employment</h1>
                 </div>
-                <!--
-                <div class="col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-8 col-md-offset-2 text-center"><span class="sub-title">Our culture is unique. Our drive to empower. Our passion, to make a difference.</span></div>
-                    </div>
-                </div>
--->
             </div>
         </div>
     </section>
@@ -175,18 +168,72 @@
     <section class="">
         <div class="container">
             <div class="row">
-                <div class="col-md-12  text-left">
-                    <p class="lead">We will foster a positive team environment by:</p>
-                    <ul class="ml-5">
-                        <li>Putting ethics above all else</li>
-                        <li>Treating everyone fairly</li>
-                        <li>Supporting each other</li>
-                        <li>Balancing work and life</li>
-                    </ul>
+                <div class="col-md-12 text-left mt-1 ">
+                    <h3 class="mb-1">Request an Employee</h3>
+                    <p>Are you looking for an outstanding PT, OT or SLP? Please complete the form below or contact us directly:</p>
+
+                    <form id="contactform" role="form" method="post" action="php/contact-form.php">
+                        <div class="row">
+                            <h2 class='mb-1'>Job Information</h2>
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" id="" class="form-control" placeholder="Job Title*">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" id="" class="form-control" placeholder="Industry*">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <select class="form-control" name="" id="" placeholder="Is this position temporary or full-time?">
+                                    <option value="" disabled selected>Is this position temporary or full-time?</option>
+                                    <option value="">Temporary</option>
+                                    <option value="">Full-time</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" id="" class="form-control" placeholder="Shift*">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Location*">
+                            </div>
+                            
+                           <div class="form-group col-md-6">
+                              <input type="text" name="name" id="name" class="form-control" placeholder="How did you hear about us?">
+                           </div>
+
+                            <div class="form-group col-md-12">
+                                <textarea name="message" id="message" class="form-control" rows="3" placeholder="Duties &amp; Responsibilities"></textarea>
+                            </div>
+                            
+                            <h2 class='mb-1'>Your Contact Information</h2>
+                            
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Full Name*">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Company*">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Phone*">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email*">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="file" name="email" id="email" style="padding: 7px 20px; border: 2px solid #e6e6e6; width: 100%;" placeholder="Email*">
+                            </div>
+                            
+                            
+                            <div class="form-group col-md-12">
+                                <a id="submit-btn" href="javascript:void(0)" class="btn btn-default btn-rounded fill-dark">Submit <i class="fa fa-arrow" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
+
+
     <section class="inner-intro small-intro theme-bg">
         <div class="container">
             <div class="row intro-title">
@@ -195,7 +242,7 @@
                 </div>
                 <div class="col-sm-12">
                     <div class="row">
-                        <div class="col-sm-12 text-center"><span class="sub-title">Our network connect people experiencing disability to support and services all across Ontario</span></div>
+                        <div class="col-sm-12 text-center"><span class="sub-title">The most powerful business network on earth</span></div>
                         <div style="display: flex;justify-content: center; width: 100%;padding-top: 30px;">
                             <a href="#" class=" btn btn-default btn-outline animated btn-radius white-border theme-bg white-text fill-white">Submit Resume <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
@@ -297,4 +344,5 @@
     <!-- custom -->
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
-   </html>
+
+</html>
