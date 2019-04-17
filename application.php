@@ -186,9 +186,9 @@ if(isset( $_POST['name']) && $_POST['name'] == "" || isset($_POST['email']) && $
             <div class="widget">
                 <h6 class="text-uppercase">OFFICE 01</h6>
                 <ul class="list-unstyled address">
-                    <li><i class="lnr lnr-map-marker"></i><span>387 Madison Ave, New York, NY 10118</span></li>
-                    <li><i class="lnr lnr-envelope"></i><span>theoutcomenetwork@gmail.com</span></li>
-                    <li><i class="icon-phone"></i><span>416-995-9105</span></li>
+                    <li><i class="lnr lnr-map-marker"></i><span>The Outcome Network ON, Canada.</span></li>
+                    <li><i class="lnr lnr-envelope"></i><span>otto@theoutcomenetwork.ca</span></li>
+                    <li><i class="icon-phone"></i><span>705-881-4615</span></li>
                 </ul>
             </div>
             <div class="widget">
@@ -294,9 +294,9 @@ if(isset( $_POST['name']) && $_POST['name'] == "" || isset($_POST['email']) && $
                     <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                         <h6 class="text-uppercase">Contact</h6>
                         <ul class="list-unstyled address">
-                            <li><i class="lnr lnr-map-marker"></i><span>387 Madison Ave, New York, NY 10118</span></li>
-                            <li><i class="lnr lnr-envelope"></i><a href="mailto:theoutcomenetwork@gmail.com">theoutcomenetwork@gmail.com</a></li>
-                            <li><i class="lnr lnr-phone-handset"></i><span>416-995-9105</span></li>
+                            <li><i class="lnr lnr-map-marker"></i><span>The Outcome Network ON, Canada.</span></li>
+                            <li><i class="lnr lnr-envelope"></i><a href="mailto:otto@theoutcomenetwork.ca">otto@theoutcomenetwork.ca</a></li>
+                            <li><i class="lnr lnr-phone-handset"></i><span>705-881-4615</span></li>
                         </ul>
                     </div>
                 </div>
