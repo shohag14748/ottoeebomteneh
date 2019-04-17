@@ -169,8 +169,11 @@ if(isset( $_POST['name']) && $_POST['name'] == "" || isset($_POST['email']) && $
                             <li><a href="application.php">Application for Employment</a></li>
                         </ul>
                     </li>
-                    <li class="">
-                        <a href="contact.html">Contact Us</a>
+                     <li>
+                        <a href="contact.html" >Contact Us</a>
+                    </li>
+                     <li>
+                        <a href="registration.html" class="btn btn-default btn-outline hover-effect2" style="padding: 10px;margin: 10px 0">Registration</a>
                     </li>
                 </ul>
             </div>
