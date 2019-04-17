@@ -465,6 +465,13 @@ nav.navbar.bootsnav .share ul > li > a{
 
 /* Transparent
 =================================*/
+nav.navbar.bootsnav{
+    padding: 10px 0;
+}
+nav.navbar.bootsnav img{
+    height: 85px;
+    width: auto !important;
+}
 nav.navbar.bootsnav.navbar-fixed{
     position: fixed;
     display: block;
@@ -1005,7 +1012,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         margin: 0 !important;
     }
     nav.navbar.bootsnav .navbar-brand img{
-        width: 90px !important;
+        height: 58px;
+        width: auto !important;
     }
     
     nav.navbar.bootsnav .navbar-header {
