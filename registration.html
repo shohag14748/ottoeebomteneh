@@ -1,5 +1,36 @@
+<!--<?php -->
+<!--if(isset($_POST['name'])&& isset($_POST['email'])){-->
+    <!--$name = $_POST['name'];-->
+    <!--$phone = $_POST['phone'];-->
+    <!--$email = $_POST['email'];-->
+    <!--$course = $_POST['course'];-->
+    <!--$courseDate = $_POST['courseDate'];-->
+    <!--$additionalNotes = $_POST['additionalNotes'];-->
+    <!--$subject = 'Cource Registration';-->
+    <!--$to = 'shohag14748@gmail.com';-->
+    <!--$body = ' <html>-->
+                <!--<body>-->
+                    <!--<h2>Message From The Outcome Network</h2>-->
+                    <!--<hr>-->
+                    <!--<p> Name :'.$name.'</p>-->
+                    <!--<p> Phone :'.$phone.'</p>-->
+                    <!--<p> Email :'.$email.'</p>-->
+                    <!--<p> Course :'.$course.'</p>-->
+                    <!--<p> Course Date :'.$courseDate.'</p>-->
+                    <!--<p> Additional Notes :'.$additionalNotes.'</p>-->
+                <!--</body>-->
+            <!--</html>';-->
+    <!---->
+    <!--$headers = "Form: ".$name."<".$email.">\r\n";-->
+    <!--$headers .= "Reply-To: ".$email."\r\n";-->
+    <!--$headers .= "Content-type: text/html; charset-utf-8";-->
+    <!--$send = mail($to,$subject,$body,$headers);-->
+<!--}-->
+
+<!--?>-->
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>The Outcome Network</title>
@@ -63,53 +94,52 @@
             <!-- Start Header Navigation -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
-                <a class="navbar-brand" href="index.php"><img src="images/brand/logo-1.png"
-                 class="logo logo-scrolled"  alt=""> </a>
+                <a class="navbar-brand" href="index.html"><img src="images/brand/logo-1.png" class="logo logo-scrolled" alt=""> </a>
             </div>
             <!-- End Header Navigation -->
             <!-- Megamenu -->
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="active ">
-                        <a href="index.php" >Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Our Story</a>
                         <ul class="dropdown-menu">
-                           <li><a href="about.php">About</a></li>
-                           <li><a href="mission.php">Mission</a></li>
-                           <li><a href="unique.php">How Are We Unique</a></li>
-                           <li><a href="culture.php">Our Culture</a></li>
-                           <li><a href="clients.php">Our Clients</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="unique.html">How Are We Unique</a></li>
+                            <li><a href="culture.html">Our Culture</a></li>
+                            <li><a href="clients.html">Our Clients</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="services.php" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                        <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                         <ul class="dropdown-menu">
-                           <li><a href="services.php#staffing">Staffing</a></li>
-                           <li><a href="services.php#transportation">Transportation</a></li>
-                           <li><a href="services.php#behavior">Behavior Supports</a></li>
+                            <li><a href="services.html#staffing">Staffing</a></li>
+                            <li><a href="services.html#transportation">Transportation</a></li>
+                            <li><a href="services.html#behavior">Behavior Supports</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Employers</a>
                         <ul class="dropdown-menu">
-                           <li><a href="providers.php">Our Service Providers</a></li>
-                            <li><a href="request.php">Request Fof Employee</a></li>
+                            <li><a href="providers.html">Our Service Providers</a></li>
+                            <li><a href="request.html">Request Fof Employee</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Career Gateway</a>
                         <ul class="dropdown-menu">
-                           <li><a href="testimonial.php">Testimonials</a></li>
-                            <li><a href="application.php">Application for Employment</a></li>
+                            <li><a href="testimonial.html">Testimonials</a></li>
+                            <li><a href="application.html">Application for Employment</a></li>
                         </ul>
                     </li>
-                     <li>
-                        <a href="contact.php" >Contact Us</a>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
                     </li>
-                     <li>
-                        <a href="registration.php" class="btn btn-default btn-outline hover-effect2" style="padding: 10px;margin: 10px 0">Registration</a>
+                    <li>
+                        <a href="registration.html" class="btn btn-default btn-outline hover-effect2" style="padding: 10px;margin: 10px 0">Registration</a>
                     </li>
                 </ul>
             </div>
@@ -119,7 +149,7 @@
         <div class="side dark-bg">
             <a href="#" class="close-side"><i class="fa fa-times"></i></a>
             <div class="widget">
-                <p class="text-center my-3"><img  style="height: 50px; margin: 20px 0;" src="images/brand/logo-2.png" class="logo" alt="" /></p>
+                <p class="text-center my-3"><img style="height: 50px; margin: 20px 0;" src="images/brand/logo-2.png" class="logo" alt="" /></p>
                 <p>Our network connect people experiencing disability to support and services all across Ontari.</p>
             </div>
             <div class="widget">
@@ -149,38 +179,66 @@
     <section class="">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-left mt-1 ">
-<!--                    <h1 class="title" style="text-align: center;">Testimonials</h1>-->
-                   <p>“Thank you so much for your hard work, persistence and determination in working with me and your client, to put together an outstanding career opportunity. You certainly stand out from other recruiters in terms of creating relationships. I feel very fortunate to have worked with someone who is extremely dedicated to her profession, meticulous with follow-up, and who has offered excellent advice, guidance and encouragement throughout the process. You have been a pleasure to work with and your hard work should not go unnoticed. I would, without reservation, refer you to any of my colleagues who may be seeking such services in the future.”</p>
-                   <h5 style="text-align: right">- Clinical Administrator</h5>
+                <div class="col-md-12 text-left mt-1 row">
+                    <div class="text-center">
+                        <h3 class="mb-4">The outcome network Training Registration</h3>
+                    </div>
+
+                    <!--<div id="formmessage"><?php-->
+                        <!--if(isset($_POST['btn'])) {-->
+                            <!--if ($send) {-->
+                                <!--echo 'Success: Message Send Successfully';-->
+                            <!--} else {-->
+                                <!--echo 'Error: Please Fill All Required Filed';-->
+                            <!--}-->
+                        <!--}-->
+                    <!--?></div>-->
+                    <form id="contactform" class="col-md-8 col-md-offset-2" role="form" method="post" action="">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name *">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="number" name="phone" id="phone" class="form-control" placeholder="Phone Number*">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="E-mail*">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <select class="form-control" name="course" id="course">
+                                    <option value="">--- Please Select ---</option>
+                                    <option label="Introduction to Applied Behavior Analysis (ABA)" value="Introduction to Applied Behavior Analysis (ABA)">Introduction to Applied Behavior Analysis (ABA)</option>
+                                    <option label="Medication and Pharmacology" value="Medication and Pharmacology">Medication and Pharmacology</option>
+                                    <option label="Safe Management" value="Safe Management">Safe Management</option>
+                                    <option label="First Aid and CPR" value="First Aid and CPR">First Aid and CPR</option>
+                                    <option label="Understanding and Working with Autism and Aspergers" value="Understanding and Working with Autism and Aspergers">Understanding and Working with Autism and Aspergers</option>
+                                    <option label="Understanding and Working with Fetal Alcohol Spectrum Disorders (FASD)" value="Understanding and Working with Fetal Alcohol Spectrum Disorders (FASD)">Understanding and Working with Fetal Alcohol Spectrum Disorders (FASD)</option>
+                                    <option label="Understanding Behavior Support Plans" value="Understanding Behavior Support Plans">Understanding Behavior Support Plans</option>
+
+                                </select>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="courseDate" name="courseDate" id="courseDate" class="form-control" placeholder="Course Date*">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea name="additionalNotes" id="additionalNotes" class="form-control" rows="3" placeholder="Additional Notes*"></textarea>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <button name="btn" type="submit" class="btn btn-default btn-rounded fill-dark">Submit</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <section class="inner-intro small-intro theme-bg">
-            <div class="container">
-               <div class="row intro-title">
-                  <div class="col-sm-12 text-center">
-                     <h1 class="title">The Outcome Network</h1>
-                  </div>
-                  <div class="col-sm-12">
-                     <div class="row">
-                        <div class="col-sm-12 text-center"><span class="sub-title">Our network connect people experiencing disability to support and services all across Ontario</span></div>
-                        <div style="display: flex;justify-content: center; width: 100%;padding-top: 30px;">
-                            <a href="application.php" class=" btn btn-default btn-outline animated btn-radius white-border theme-bg white-text fill-white">Submit Your Resume <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
     <!-- End Our service -->
     <!-- Footer -->
     <footer class="footer-dark">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-                   <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
+                    <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                         <h6 class="text-uppercase">About</h6>
                         <img style="width: 200px; margin-bottom: 20px" src="images/brand/logo-2.png" alt="">
                         <p>A Leader in Workforce Solutions and Behavior Support.</p>
@@ -188,25 +246,25 @@
                     <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                         <h6 class="text-uppercase">Services</h6>
                         <ul class="list-unstyled">
-                            <li><a href="services.php#staffing">Staffing</a></li>
-                            <li><a href="services.php#transportation">Transportation</a></li>
-                            <li><a href="services.php#behavior">Behavior Supports</a></li>
+                            <li><a href="services.html#staffing">Staffing</a></li>
+                            <li><a href="services.html#transportation">Transportation</a></li>
+                            <li><a href="services.html#behavior">Behavior Supports</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                         <h6 class="text-uppercase">Our Story</h6>
                         <ul class="list-unstyled">
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="mission.php">Mission</a></li>
-                            <li><a href="unique.php">How Are We Unique</a></li>
-                            <li><a href="culture.php">Our Culture</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="unique.html">How Are We Unique</a></li>
+                            <li><a href="culture.html">Our Culture</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                         <h6 class="text-uppercase">Contact</h6>
                         <ul class="list-unstyled address">
-                            <li><i class="lnr lnr-map-marker"></i><span>The Outcome Network ON, Canada.</span></li>
-                            <li><i class="lnr lnr-envelope"></i><a href="mailto:otto@theoutcomenetwork.ca">otto@theoutcomenetwork.ca</a></li>
+                            <li><i class="lnr lnr-map-marker"></i><span>387 Madison Ave, New York, NY 10118</span></li>
+                            <li><i class="lnr lnr-envelope"></i><a href="mailto:theoutcomenetwork@gmail.com">theoutcomenetwork@gmail.com</a></li>
                             <li><i class="lnr lnr-phone-handset"></i><span>705-881-4614</span></li>
                         </ul>
                     </div>
@@ -261,4 +319,5 @@
     <!-- custom -->
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
-   </html>
+
+</html>

@@ -1,28 +1,28 @@
-<?php 
+<!--<?php -->
 
-if(isset($_POST['name'])&& isset($_POST['email'])){
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-    $to = 'shohag14748@gmail.com';
-    $body = ' <html>
-                <body>
-                    <h2>Message From The Outcome Network</h2>
-                    <hr>
-                    <p>Name :'.$name.'</p>
-                    <p> Email :'.$email.'</p>
-                    <h3>Message</h3>
-                    <p>'.$message.'</p>
-                </body>
-            </html>';
-    $headers = "Form: ".$name."<".$email.">\r\n";
-    $headers .= "Reply-To: ".$email."\r\n";
-    $headers .= "Content-type: text/html; charset-utf-8";
-    $send = mail($to,$subject,$body,$headers);
-}
+<!--if(isset($_POST['name'])&& isset($_POST['email'])){-->
+    <!--$name = $_POST['name'];-->
+    <!--$email = $_POST['email'];-->
+    <!--$subject = $_POST['subject'];-->
+    <!--$message = $_POST['message'];-->
+    <!--$to = 'shohag14748@gmail.com';-->
+    <!--$body = ' <html>-->
+                <!--<body>-->
+                    <!--<h2>Message From The Outcome Network</h2>-->
+                    <!--<hr>-->
+                    <!--<p>Name :'.$name.'</p>-->
+                    <!--<p> Email :'.$email.'</p>-->
+                    <!--<h3>Message</h3>-->
+                    <!--<p>'.$message.'</p>-->
+                <!--</body>-->
+            <!--</html>';-->
+    <!--$headers = "Form: ".$name."<".$email.">\r\n";-->
+    <!--$headers .= "Reply-To: ".$email."\r\n";-->
+    <!--$headers .= "Content-type: text/html; charset-utf-8";-->
+    <!--$send = mail($to,$subject,$body,$headers);-->
+<!--}-->
 
-?>
+<!--?>-->
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -87,7 +87,7 @@ if(isset($_POST['name'])&& isset($_POST['email'])){
                      <!-- Start Header Navigation -->
                      <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
-                        <a class="navbar-brand" href="index.php"><img src="images/brand/logo-1.png" class="logo logo-scrolled"  alt=""></a> 
+                        <a class="navbar-brand" href="index.html"><img src="images/brand/logo-1.png" class="logo logo-scrolled"  alt=""></a> 
                      </div>
                      <!-- End Header Navigation -->
                      <!-- Megamenu -->
@@ -95,45 +95,45 @@ if(isset($_POST['name'])&& isset($_POST['email'])){
                          
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="active ">
-                        <a href="index.php" >Home</a>
+                        <a href="index.html" >Home</a>
                     </li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Our Story</a>
                         <ul class="dropdown-menu">
-                           <li><a href="about.php">About</a></li>
-                           <li><a href="mission.php">Mission</a></li>
-                           <li><a href="unique.php">How Are We Unique</a></li>
-                           <li><a href="culture.php">Our Culture</a></li>
-                           <li><a href="clients.php">Our Clients</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li><a href="mission.html">Mission</a></li>
+                           <li><a href="unique.html">How Are We Unique</a></li>
+                           <li><a href="culture.html">Our Culture</a></li>
+                           <li><a href="clients.html">Our Clients</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="services.php" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                        <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                         <ul class="dropdown-menu">
-                           <li><a href="services.php#staffing">Staffing</a></li>
-                           <li><a href="services.php#transportation">Transportation</a></li>
-                           <li><a href="services.php#behavior">Behavior Supports</a></li>
+                           <li><a href="services.html#staffing">Staffing</a></li>
+                           <li><a href="services.html#transportation">Transportation</a></li>
+                           <li><a href="services.html#behavior">Behavior Supports</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Employers</a>
                         <ul class="dropdown-menu">
-                           <li><a href="providers.php">Our Service Providers</a></li>
-                            <li><a href="request.php">Request Fof Employee</a></li>
+                           <li><a href="providers.html">Our Service Providers</a></li>
+                            <li><a href="request.html">Request Fof Employee</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Career Gateway</a>
                         <ul class="dropdown-menu">
-                           <li><a href="testimonial.php">Testimonials</a></li>
-                            <li><a href="application.php">Application for Employment</a></li>
+                           <li><a href="testimonial.html">Testimonials</a></li>
+                            <li><a href="application.html">Application for Employment</a></li>
                         </ul>
                     </li>
                      <li>
-                        <a href="contact.php" >Contact Us</a>
+                        <a href="contact.html" >Contact Us</a>
                     </li>
                      <li>
-                        <a href="registration.php" class="btn btn-default btn-outline hover-effect2" style="padding: 10px;margin: 10px 0">Registration</a>
+                        <a href="registration.html" class="btn btn-default btn-outline hover-effect2" style="padding: 10px;margin: 10px 0">Registration</a>
                     </li>
                 </ul>
                      </div>
@@ -175,16 +175,16 @@ if(isset($_POST['name'])&& isset($_POST['email'])){
                <div class="row">
                   <div class="col-md-8 col-sm-6 mb-4">
                      <h4 class="solid-weight text-uppercase">Send Us a Message</h4>
-                     <div id="formmessage"><?php
-                        if(isset($_POST['btn'])) {
-                            if ($send) {
-                                echo 'Success: Message Send Successfully';
-                            } else {
-                                echo 'Error: Please Fill All Required Filed';
-                            }
-                        }
-                    ?></div>
-					 <form id="contactform" role="form" method="post" action="php/contact-form.php">
+                     <!--<div id="formmessage"><?php-->
+                        <!--if(isset($_POST['btn'])) {-->
+                            <!--if ($send) {-->
+                                <!--echo 'Success: Message Send Successfully';-->
+                            <!--} else {-->
+                                <!--echo 'Error: Please Fill All Required Filed';-->
+                            <!--}-->
+                        <!--}-->
+                    <!--?></div>-->
+					 <form id="contactform" role="form" method="post" action="">
                         <div class="row">
                            <div class="form-group col-md-6">
                               <input type="text" name="name" id="name" class="form-control" placeholder="Name*">
@@ -252,18 +252,18 @@ if(isset($_POST['name'])&& isset($_POST['email'])){
                     <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                         <h6 class="text-uppercase">Services</h6>
                         <ul class="list-unstyled">
-                            <li><a href="services.php#staffing">Staffing</a></li>
-                            <li><a href="services.php#transportation">Transportation</a></li>
-                            <li><a href="services.php#behavior">Behavior Supports</a></li>
+                            <li><a href="services.html#staffing">Staffing</a></li>
+                            <li><a href="services.html#transportation">Transportation</a></li>
+                            <li><a href="services.html#behavior">Behavior Supports</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                         <h6 class="text-uppercase">Our Story</h6>
                         <ul class="list-unstyled">
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="mission.php">Mission</a></li>
-                            <li><a href="unique.php">How Are We Unique</a></li>
-                            <li><a href="culture.php">Our Culture</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="unique.html">How Are We Unique</a></li>
+                            <li><a href="culture.html">Our Culture</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
