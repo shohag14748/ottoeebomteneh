@@ -63,14 +63,14 @@
             <!-- Start Header Navigation -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
-                <a class="navbar-brand" href="home.php"><img src="images/brand/logo-1.png" class="logo logo-scrolled" alt=""> </a>
+                <a class="navbar-brand" href="index.php"><img src="images/brand/logo-1.png" class="logo logo-scrolled" alt=""> </a>
             </div>
             <!-- End Header Navigation -->
             <!-- Megamenu -->
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="active ">
-                        <a href="home.php">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Our Story</a>
