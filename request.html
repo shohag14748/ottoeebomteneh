@@ -242,43 +242,43 @@
                         <div class="row">
                             <h3 class='mb-1'>Job Information</h3>
                             <div class="form-group col-md-6">
-                                <input type="text" name="job_name" id="job_name" class="form-control" placeholder="Job Title*">
+                                <input type="text" name="job_name" id="job_name" class="form-control" placeholder="Job Title*" required >
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" name="industry" id="industry" class="form-control" placeholder="Industry*">
+                                <input type="text" name="industry" id="industry" class="form-control" placeholder="Industry*" required >
                             </div>
                             <div class="form-group col-md-6">
-                                <select class="form-control" name="time" id="time" placeholder="Is this position temporary or full-time?">
+                                <select class="form-control" name="time" id="time" placeholder="Is this position temporary or full-time?" required >
                                     <option value="" disabled selected>Is this position temporary or full-time?</option>
                                     <option value="Temporary">Temporary</option>
                                     <option value="Full-time">Full-time</option>
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" name="shift" id="" class="form-control" placeholder="Shift*">
+                                <input type="text" name="shift" id="" class="form-control" placeholder="Shift*" required >
                             </div>
                             <div class="form-group col-md-12">
-                                <input type="text" name="location" id="location" class="form-control" placeholder="Location*">
+                                <input type="text" name="location" id="location" class="form-control" placeholder="Location*" required >
                             </div>
 
                             <div class="form-group col-md-12">
-                                <textarea name="responsibility" id="responsibility" class="form-control" rows="3" placeholder="Duties &amp; Responsibilities"></textarea>
+                                <textarea name="responsibility" id="responsibility" class="form-control" rows="3" placeholder="Duties &amp; Responsibilities" required ></textarea>
                             </div>
                             
                             <h3 class='mb-1'>Your Contact Information</h3>
                             
                             <div class="form-group col-md-6">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Full Name*">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Full Name*" required >
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="number" name="phone" id="phone" class="form-control" placeholder="Phone*">
+                                <input type="number" name="phone" id="phone" class="form-control" placeholder="Phone*" required >
                             </div>
                             <div class="form-group col-md-12">
-                                <input type="email" name="email" id="email" class="form-control" placeholder="Email*">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email*" required >
                             </div>
                             <div class="form-group col-md-12">
                                <label for="file">Upload Your Job Description*</label>
-                                <input type="file" name="attach[]" id="file" style="padding: 7px 20px; border: 2px solid #e6e6e6; width: 100%;" >
+                                <input type="file" name="attach[]" id="file" style="padding: 7px 20px; border: 2px solid #e6e6e6; width: 100%;"  required >
                             </div>
 
                             <div class="form-group col-md-12">
