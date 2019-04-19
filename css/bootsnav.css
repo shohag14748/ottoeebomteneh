@@ -1410,7 +1410,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     .banar-video{
         position: absolute; width: 100%;height: auto;transform: translateX(-50%);left:50%;top: 0%;
     }
-    .home-banner{
+    .home-banner-bg{
         background-image: url(../images/video.jpg) !important;
         background-size: cover;
     }
