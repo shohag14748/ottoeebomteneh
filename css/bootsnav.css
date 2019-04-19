@@ -1414,6 +1414,10 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         background-image: url(../images/video.jpg) !important;
         background-size: cover;
     }
+    .home-banner{
+        margin-top: 40px;
+        
+    }
     
     .attr-nav{
         right: 30px;
